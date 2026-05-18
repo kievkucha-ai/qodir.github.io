@@ -9,7 +9,7 @@ const Star8 = ({ stroke = 'currentColor', fill = 'none', sw = 1 }) => (
 );
 
 const ArchFrame = ({ stroke = '#C9A961', sw = 1.4 }) => (
-  <svg viewBox="0 0 400 530" fill="none" stroke={stroke} strokeWidth={sw}>
+  <svg className="frame" viewBox="0 0 400 530" fill="none" stroke={stroke} strokeWidth={sw} preserveAspectRatio="none">
     <path d="M 8 220 Q 8 8 200 8 Q 392 8 392 220 L 392 522 L 8 522 Z" />
     <path d="M 22 222 Q 22 22 200 22 Q 378 22 378 222 L 378 508 L 22 508 Z" opacity="0.5" />
     <g opacity="0.45">
